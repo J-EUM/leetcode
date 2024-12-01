@@ -1,10 +1,3 @@
-# Write your MySQL query statement below
-WITH FirstOrder AS (
-    SELECT 
-        *,
-        ROW_NUMBER() OVER(PARTITION BY customer_id ORDER BY order_date) AS order_number
-    FROM Delivery
-)
 SELECT 
     ROUND(
         100.0 * 
@@ -14,5 +7,9 @@ SELECT
             END) / 
         COUNT(1), 
     2) immediate_percentage
-FROM FirstOrder
-WHERE order_number=1
+FROM Delivery
+WHERE (customer_id, order_date) in (
+    SELECT customer_id, MIN(order_date) 
+    FROM Delivery
+    GROUP BY customer_id
+)
