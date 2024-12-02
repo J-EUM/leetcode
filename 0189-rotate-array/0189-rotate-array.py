@@ -3,9 +3,8 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        from collections import deque
-        q = deque(nums)
-        for i in range(-k, 0):
-            q.appendleft(q.pop())
-        nums[:] = list(q)
+        k = k % len(nums)
+        nums[-k:] = nums[-k:][::-1]
+        nums[:-k] = nums[:-k][::-1]
+        nums[:] = nums[::-1]
         
