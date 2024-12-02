@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0620-not-boring-movies](https://github.com/J-EUM/leetcode/tree/master/0620-not-boring-movies) |
 | [1292-immediate-food-delivery-ii](https://github.com/J-EUM/leetcode/tree/master/1292-immediate-food-delivery-ii) |
 | [1317-monthly-transactions-i](https://github.com/J-EUM/leetcode/tree/master/1317-monthly-transactions-i) |
+| [1390-average-selling-price](https://github.com/J-EUM/leetcode/tree/master/1390-average-selling-price) |
 | [2087-confirmation-rate](https://github.com/J-EUM/leetcode/tree/master/2087-confirmation-rate) |
 ## Array
 |  |
