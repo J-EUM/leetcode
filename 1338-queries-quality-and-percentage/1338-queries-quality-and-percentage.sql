@@ -8,5 +8,5 @@ SELECT
         COUNT(1), 
     2) poor_query_percentage
 FROM Queries
+WHERE query_name IS NOT NULL
 GROUP BY 1
-HAVING query_name IS NOT NULL
