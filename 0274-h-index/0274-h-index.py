@@ -23,11 +23,27 @@ class Solution:
         # 1이상 1개
         # 0,1중에 큰거 1 -> 1
 
-        answer = 0
-        for i in range(min(max(citations)+1, len(citations)+1)):
-            cnt = sum(1 for x in citations if x >= i)
-            if i <= cnt:
-                answer = i
-            else:
-                break
-        return answer
+        # [6,5,3,1,0] -> 3
+        # 6이상 1개      
+        # 5이상 2개
+        # 3이상 3개
+        # 1이상 4개
+        # a <= b 면 a
+
+        # [0,0,2] -> 1
+        #  0 1 2
+        #  3 2 1
+        #  
+
+        # i = 0 h([0,0,0,0,9,9) = 2 max_h = 6 | first member is 0, try again
+        # i = 1 h([0,0,0,9,9) = 2 max_h = 5 | first member is 0, try again
+        # i = 2 h([0,0,9,9) = 2 max_h = 4 | first member is 0, try again
+        # i = 3 h([0,9,9) = 2 max_h = 3 | first member is 0, try again
+        # i = 4 h([9,9) = 2 max_h = 2 | first member is 9
+
+        citations.sort()
+        n = len(citations)
+        for i, v in enumerate(citations):
+            if n - i <= v:
+                return n - i
+        return 0
