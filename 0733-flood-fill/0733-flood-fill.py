@@ -13,7 +13,7 @@ class Solution:
         dr = (-1, 1, 0, 0)
 
         while q:
-            r, c = q.pop()
+            r, c = q.popleft()
             image[r][c] = color
 
             for i in range(4):
