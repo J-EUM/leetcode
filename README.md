@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/J-EUM/leetcode/tree/master/0001-two-sum) |
 | [0027-remove-element](https://github.com/J-EUM/leetcode/tree/master/0027-remove-element) |
 | [0045-jump-game-ii](https://github.com/J-EUM/leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/J-EUM/leetcode/tree/master/0055-jump-game) |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/J-EUM/leetcode/tree/master/0001-two-sum) |
 | [0169-majority-element](https://github.com/J-EUM/leetcode/tree/master/0169-majority-element) |
 | [0380-insert-delete-getrandom-o1](https://github.com/J-EUM/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 ## Divide and Conquer
