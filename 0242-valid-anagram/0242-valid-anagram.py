@@ -1,10 +1,20 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        s_list = [ch for ch in s]
-        t_list = [ch for ch in t]
+        s_dict = {}
 
-        s_list.sort()
-        t_list.sort()
+        for ch in s:
+            s_dict[ch] = s_dict.get(ch, 0) + 1
 
-        return s_list == t_list
+        for ch in t:
+            if s_dict.get(ch) is None:
+                return False
+            if s_dict.get(ch) > 1:
+                s_dict[ch] -= 1
+            else:
+                s_dict.pop(ch)
+        
+        if s_dict:
+            return False
+        else:
+            return True
         
