@@ -1,15 +1,9 @@
-from collections import deque
-
-
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         result = []
-
-        q = deque(intervals)
         temp = newInterval
 
-        while q:
-            interval = q.popleft()
+        for interval in intervals:
             if interval[1] < temp[0]:
                 result.append(interval)
             elif interval[0] > temp[1]:
