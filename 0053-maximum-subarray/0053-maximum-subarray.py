@@ -1,12 +1,12 @@
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
-        max_temp = -10 ** 4
-        temp = -10 ** 4
-        for i in range(len(nums)):
-            if nums[i] > temp + nums[i]:
-                temp = nums[i]
-            else:
-                temp += nums[i]
-            max_temp = max(max_temp, temp)
+        total = 0
+        res = nums[0]
 
-        return max_temp
+        for num in nums:
+            if total < 0:
+                total = 0
+            total += num
+            res = max(res, total)
+
+        return res
