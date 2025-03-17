@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/J-EUM/leetcode/tree/master/0189-rotate-array) |
 | [0274-h-index](https://github.com/J-EUM/leetcode/tree/master/0274-h-index) |
 | [0380-insert-delete-getrandom-o1](https://github.com/J-EUM/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0542-01-matrix](https://github.com/J-EUM/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/J-EUM/leetcode/tree/master/0733-flood-fill) |
 | [0792-binary-search](https://github.com/J-EUM/leetcode/tree/master/0792-binary-search) |
 ## Two Pointers
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/J-EUM/leetcode/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/J-EUM/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/J-EUM/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0542-01-matrix](https://github.com/J-EUM/leetcode/tree/master/0542-01-matrix) |
 ## Greedy
 |  |
 | ------- |
@@ -127,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/J-EUM/leetcode/tree/master/0226-invert-binary-tree) |
+| [0542-01-matrix](https://github.com/J-EUM/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/J-EUM/leetcode/tree/master/0733-flood-fill) |
 ## Binary Tree
 |  |
@@ -140,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0542-01-matrix](https://github.com/J-EUM/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/J-EUM/leetcode/tree/master/0733-flood-fill) |
 ## Binary Search Tree
 |  |
