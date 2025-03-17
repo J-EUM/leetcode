@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/J-EUM/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/J-EUM/leetcode/tree/master/0733-flood-fill) |
 | [0792-binary-search](https://github.com/J-EUM/leetcode/tree/master/0792-binary-search) |
+| [1014-k-closest-points-to-origin](https://github.com/J-EUM/leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Two Pointers
 |  |
 | ------- |
@@ -54,12 +55,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/J-EUM/leetcode/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/J-EUM/leetcode/tree/master/0169-majority-element) |
+| [1014-k-closest-points-to-origin](https://github.com/J-EUM/leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Sorting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/J-EUM/leetcode/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/J-EUM/leetcode/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/J-EUM/leetcode/tree/master/0274-h-index) |
+| [1014-k-closest-points-to-origin](https://github.com/J-EUM/leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Counting
 |  |
 | ------- |
@@ -69,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0189-rotate-array](https://github.com/J-EUM/leetcode/tree/master/0189-rotate-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/J-EUM/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [1014-k-closest-points-to-origin](https://github.com/J-EUM/leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -149,4 +153,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/J-EUM/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+## Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/J-EUM/leetcode/tree/master/1014-k-closest-points-to-origin) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/J-EUM/leetcode/tree/master/1014-k-closest-points-to-origin) |
+## Quickselect
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/J-EUM/leetcode/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
