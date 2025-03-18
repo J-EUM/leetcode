@@ -6,19 +6,21 @@
 #         self.right = right
 class Solution:
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
-        depth = {}
+        return self.get_height(root) != -1
 
-        def get_depth(idx, node):
-            if node:
-                left_depth, left_balanced = get_depth(idx * 2, node.left)
-                right_depth, right_balanced = get_depth(idx * 2 + 1, node.right)
+    def get_height(self, node):
+        if not node:
+            return 0
 
-                balanced = left_balanced and right_balanced and abs(left_depth - right_depth) <= 1
-                depth[idx] = max(left_depth, right_depth) + 1
-                return depth[idx], balanced
-            else:
-                return 0, True
+        left_height = self.get_height(node.left)
+        if left_height == -1:
+            return -1
 
-        _, answer = get_depth(1, root)
+        right_height = self.get_height(node.right)
+        if right_height == -1:
+            return -1
 
-        return answer
+        if abs(left_height - right_height) > 1:
+            return -1 
+
+        return max(left_height, right_height) + 1
