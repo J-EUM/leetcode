@@ -1,15 +1,13 @@
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
-        sorted_ransom = sorted(ransomNote)
-        sorted_magazine = sorted(magazine)
+        magazine_hash = {}
 
-        while sorted_ransom and sorted_magazine:
-            if sorted_ransom[-1] == sorted_magazine[-1]:
-                sorted_ransom.pop()
-                sorted_magazine.pop()
-            else:
-                sorted_magazine.pop()
+        for c in magazine:
+            magazine_hash[c] = magazine_hash.get(c, 0) + 1
+        
+        for c in ransomNote:
+            magazine_hash[c] = magazine_hash.get(c, 0) - 1
+            if magazine_hash[c] < 0:
+                return False
 
-        if sorted_ransom:
-            return False
         return True
