@@ -6,6 +6,8 @@ class Solution:
         for i in range(len(nums) - 2):
             if i > 0 and nums[i] == nums[i-1]:
                 continue
+            if nums[i] > 0:
+                break
 
             left = i + 1
             right = len(nums) - 1
