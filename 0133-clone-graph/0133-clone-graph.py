@@ -11,30 +11,20 @@ class Node:
 from typing import Optional
 class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
-        return copy.deepcopy(node)
-        # nodes = {}
-        # q = deque([node])
+        if not node:
+            return None
 
-        # while q:
-        #     cur = q.popleft()
-        #     if cur:
-        #         nodes[cur.val] = None
-        #         for n in cur.neighbors:
-        #             if not nodes[cur.val]:
-        #                 nodes[cur.val] = []
-        #             nodes[cur.val].append(n.val)
-        #             if n not in q and n.val not in nodes:
-        #                 q.append(n)
-        
-        # nodes_list = [None]
-        # for i in range(1, len(nodes)+1):
-        #     nodes_list.append(Node(i))
+        q = deque([node])
+        clones = {node.val : Node(node.val, [])}
 
-        # for i in range(1, len(nodes)+1):
-        #     if nodes[i]:
-        #         for n_val in nodes[i]:  # 이웃 val만 있는 리스트
-        #             if not nodes_list[i].neighbors:
-        #                 nodes_list[i].neighbors = []
-        #             nodes_list[i].neighbors.append(nodes_list[n_val])
+        while q:
+            cur = q.popleft()
+            cur_clone = clones[cur.val]
 
-        # return nodes_list[-1]
+            for n in cur.neighbors:
+                if n.val not in clones:
+                    clones[n.val] = Node(n.val, [])
+                    q.append(n)
+                cur_clone.neighbors.append(clones[n.val])
+
+        return clones[node.val]
