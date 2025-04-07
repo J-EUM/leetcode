@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/J-EUM/leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/J-EUM/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/J-EUM/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/J-EUM/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0169-majority-element](https://github.com/J-EUM/leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/J-EUM/leetcode/tree/master/0189-rotate-array) |
 | [0274-h-index](https://github.com/J-EUM/leetcode/tree/master/0274-h-index) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/J-EUM/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/J-EUM/leetcode/tree/master/0189-rotate-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/J-EUM/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [1014-k-closest-points-to-origin](https://github.com/J-EUM/leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -122,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/J-EUM/leetcode/tree/master/0020-valid-parentheses) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/J-EUM/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0232-implement-queue-using-stacks](https://github.com/J-EUM/leetcode/tree/master/0232-implement-queue-using-stacks) |
 ## Linked List
 |  |
