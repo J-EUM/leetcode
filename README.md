@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/J-EUM/leetcode/tree/master/0133-clone-graph) |
 | [0141-linked-list-cycle](https://github.com/J-EUM/leetcode/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/J-EUM/leetcode/tree/master/0169-majority-element) |
+| [0208-implement-trie-prefix-tree](https://github.com/J-EUM/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/J-EUM/leetcode/tree/master/0242-valid-anagram) |
 | [0380-insert-delete-getrandom-o1](https://github.com/J-EUM/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/J-EUM/leetcode/tree/master/0383-ransom-note) |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/J-EUM/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0232-implement-queue-using-stacks](https://github.com/J-EUM/leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0380-insert-delete-getrandom-o1](https://github.com/J-EUM/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 ## Randomized
@@ -118,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/J-EUM/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/J-EUM/leetcode/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/J-EUM/leetcode/tree/master/0125-valid-palindrome) |
+| [0208-implement-trie-prefix-tree](https://github.com/J-EUM/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/J-EUM/leetcode/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/J-EUM/leetcode/tree/master/0383-ransom-note) |
 ## Stack
@@ -214,4 +217,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/J-EUM/leetcode/tree/master/0207-course-schedule) |
+## Trie
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/J-EUM/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 <!---LeetCode Topics End-->
