@@ -15,23 +15,17 @@ class Trie:
     def search(self, word: str) -> bool:
         temp = self.d
         for ch in word:
-            if ch in temp:
-                temp = temp[ch]
-            else:
+            if ch not in temp:
                 return False
-        
-        if temp.get("end"):
-            return True
-        return False
+            temp = temp[ch]
+        return "end" in temp
 
     def startsWith(self, prefix: str) -> bool:
         temp = self.d
         for ch in prefix:
-            if ch in temp:
-                temp = temp[ch]
-            else:
+            if ch not in temp:
                 return False
-        
+            temp = temp[ch]
         return True
 
 
